@@ -1,0 +1,20 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "SKILL.md": "0c168694f9c607b6ba3acca16fb7c4d12c7cddf02794a8a194af5d0ffebb2af9",
+    "references/gmail-sync.md": "dbdcfb238b03ac58778b4cbda5765a2ba3cb407f4f72a8b3e08a64bcece87d92",
+    "references/profile-and-fit.md": "ec0b87e03b2abc6f022279a12e8d0bf6e2544bd290e2d789f831ecdcac070a40",
+    "references/record-schema.md": "c8fc7073f1da34b3c59916d9083ffd9286e15bd61a8e4c69fa14795914f330f6",
+    "references/scoring-rubric.md": "c4bf33657a2e2c9e18b6f6c850520888dd7019cadac82956397ff9b1e0c47ff4",
+    "references/search-playbook.md": "33a4d77165fb295ab5c79afcf6e2a1f6fe3bd9ac733ff9a421c21a1b87637d3b",
+    "references/security-policy.md": "c6c1105192bd13d15f2bd8fe0b0a0528e6aca4684225083aac450d3a03ccdc84",
+    "scripts/audit_shortlist.py": "cd0d7aafbc91b72cc67da22d43fbd1a40fa92a1b2104d9860aa5f0a977c66084",
+    "scripts/build_tracker_exclusions.py": "3e8aff05007b99d7f04d656975bd98b4276dbfa1eee759436c910b9b5c1ab17f",
+    "scripts/rank_candidates.py": "2800927f18ee16921e3876e82b1049b79efc0e429f3c71e34cc0999f9a8d169a",
+    "scripts/reconcile_gmail_confirmations.py": "9a91c7e4cf91bdf91c2843831f0f88694c80d4923cc9ffada008931df79f33ba",
+    "scripts/verify_candidates.py": "0949a76b83e44e250a8bb25d9cb6bd1e265e012bb6bd10236943b169980b1d6b",
+    "scripts/vet_skill.py": "886702e2b41545fe3b5736fa930532e6d69efdf8ddf8188e14a07064d93f719c"
+  },
+  "generated_at": "2026-09-11",
+  "version": 3
+}

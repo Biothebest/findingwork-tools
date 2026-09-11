@@ -1,0 +1,477 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-09-06T20:38:25-04:00",
+  "collection_scope": "Reviewed public employer feeds only; no whole-web crawling or authenticated application access.",
+  "sources": [
+    {
+      "company": "Power Digital",
+      "provider": "greenhouse",
+      "board_token": "powerdigitalmarketing",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/powerdigitalmarketing/jobs?content=true",
+      "careers_url": "https://powerdigitalmarketing.com/company/careers/",
+      "board_url": "https://job-boards.greenhouse.io/powerdigitalmarketing",
+      "evidence_url": "https://powerdigitalmarketing.com/company/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Wpromote",
+      "provider": "lever",
+      "board_token": "wpromote",
+      "feed_url": "https://api.lever.co/v0/postings/wpromote?mode=json",
+      "careers_url": "https://www.wpromote.com/careers/",
+      "board_url": "https://jobs.lever.co/wpromote",
+      "evidence_url": "https://www.wpromote.com/careers/741a26f3-be81-46c3-a610-abb30c0f3bda/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing"
+      ]
+    },
+    {
+      "company": "WebFX",
+      "provider": "lever",
+      "board_token": "webfx",
+      "feed_url": "https://api.lever.co/v0/postings/webfx?mode=json",
+      "careers_url": "https://www.webfx.com/careers/",
+      "board_url": "https://jobs.lever.co/webfx",
+      "evidence_url": "https://www.webfx.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "IT"
+      ]
+    },
+    {
+      "company": "MNTN",
+      "provider": "greenhouse",
+      "board_token": "mntn",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/mntn/jobs?content=true",
+      "careers_url": "https://mountain.com/about/careers/",
+      "board_url": "https://job-boards.greenhouse.io/mntn",
+      "evidence_url": "https://mountain.com/about/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "IT"
+      ]
+    },
+    {
+      "company": "StackAdapt",
+      "provider": "greenhouse",
+      "board_token": "stackadapt",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/stackadapt/jobs?content=true",
+      "careers_url": "https://www.stackadapt.com/careers",
+      "board_url": "https://job-boards.greenhouse.io/stackadapt",
+      "evidence_url": "https://www.stackadapt.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "OpenX",
+      "provider": "lever",
+      "board_token": "openx",
+      "feed_url": "https://api.lever.co/v0/postings/openx?mode=json",
+      "careers_url": "https://www.openx.com/careers/",
+      "board_url": "https://jobs.lever.co/openx",
+      "evidence_url": "https://www.openx.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "InMarket",
+      "provider": "greenhouse",
+      "board_token": "inmarket",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/inmarket/jobs?content=true",
+      "careers_url": "https://inmarket.com/careers/",
+      "board_url": "https://job-boards.greenhouse.io/inmarket",
+      "evidence_url": "https://inmarket.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "RPA",
+      "provider": "greenhouse",
+      "board_token": "rpa",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/rpa/jobs?content=true",
+      "careers_url": "https://www.rpa.com/careers",
+      "board_url": "https://job-boards.greenhouse.io/rpa",
+      "evidence_url": "https://www.rpa.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "IT"
+      ]
+    },
+    {
+      "company": "Seer Interactive",
+      "provider": "lever",
+      "board_token": "seerinteractive",
+      "feed_url": "https://api.lever.co/v0/postings/seerinteractive?mode=json",
+      "careers_url": "https://www.seerinteractive.com/careers",
+      "board_url": "https://jobs.lever.co/seerinteractive",
+      "evidence_url": "https://www.seerinteractive.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing"
+      ]
+    },
+    {
+      "company": "PMG",
+      "provider": "greenhouse",
+      "board_token": "pmg",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/pmg/jobs?content=true",
+      "careers_url": "https://www.pmg.com/team-and-culture/job-openings",
+      "board_url": "https://job-boards.greenhouse.io/pmg",
+      "evidence_url": "https://www.pmg.com/team-and-culture/job-openings",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Marketing",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Bluesight",
+      "provider": "lever",
+      "board_token": "bluesight",
+      "feed_url": "https://api.lever.co/v0/postings/bluesight?mode=json",
+      "careers_url": "https://bluesight.com/careers/",
+      "board_url": "https://jobs.lever.co/bluesight",
+      "evidence_url": "https://bluesight.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "GoGuardian",
+      "provider": "greenhouse",
+      "board_token": "goguardian",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/goguardian/jobs?content=true",
+      "careers_url": "https://www.goguardian.com/careers",
+      "board_url": "https://job-boards.greenhouse.io/goguardian",
+      "evidence_url": "https://www.goguardian.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Sonar",
+      "provider": "lever",
+      "board_token": "sonarsource",
+      "feed_url": "https://api.lever.co/v0/postings/sonarsource?mode=json",
+      "careers_url": "https://www.sonarsource.com/company/careers/",
+      "board_url": "https://jobs.lever.co/sonarsource",
+      "evidence_url": "https://www.sonarsource.com/company/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Weave",
+      "provider": "ashby",
+      "board_token": "weave",
+      "feed_url": "https://api.ashbyhq.com/posting-api/job-board/weave?includeCompensation=true",
+      "careers_url": "https://www.getweave.com/careers/",
+      "board_url": "https://jobs.ashbyhq.com/weave",
+      "evidence_url": "https://www.getweave.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Versaterm",
+      "provider": "greenhouse",
+      "board_token": "versaterm",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/versaterm/jobs?content=true",
+      "careers_url": "https://www.versaterm.com/careers/",
+      "board_url": "https://job-boards.greenhouse.io/versaterm",
+      "evidence_url": "https://www.versaterm.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Karbon",
+      "provider": "greenhouse",
+      "board_token": "karbon",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/karbon/jobs?content=true",
+      "careers_url": "https://karbonhq.com/careers/",
+      "board_url": "https://job-boards.greenhouse.io/karbon",
+      "evidence_url": "https://karbonhq.com/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Calendly",
+      "provider": "greenhouse",
+      "board_token": "calendly",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/calendly/jobs?content=true",
+      "careers_url": "https://careers.calendly.com/",
+      "board_url": "https://job-boards.greenhouse.io/calendly",
+      "evidence_url": "https://careers.calendly.com/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Honeycomb",
+      "provider": "greenhouse",
+      "board_token": "honeycomb",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/honeycomb/jobs?content=true",
+      "careers_url": "https://www.honeycomb.io/careers/open-roles",
+      "board_url": "https://job-boards.greenhouse.io/honeycomb",
+      "evidence_url": "https://www.honeycomb.io/careers/open-roles",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Render",
+      "provider": "ashby",
+      "board_token": "render",
+      "feed_url": "https://api.ashbyhq.com/posting-api/job-board/render?includeCompensation=true",
+      "careers_url": "https://render.com/careers",
+      "board_url": "https://jobs.ashbyhq.com/render",
+      "evidence_url": "https://render.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Tailscale",
+      "provider": "greenhouse",
+      "board_token": "tailscale",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/tailscale/jobs?content=true",
+      "careers_url": "https://tailscale.com/careers",
+      "board_url": "https://job-boards.greenhouse.io/tailscale",
+      "evidence_url": "https://tailscale.com/job-scam-awareness",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Deepgram",
+      "provider": "ashby",
+      "board_token": "Deepgram",
+      "feed_url": "https://api.ashbyhq.com/posting-api/job-board/Deepgram?includeCompensation=true",
+      "careers_url": "https://deepgram.com/careers",
+      "board_url": "https://jobs.ashbyhq.com/Deepgram",
+      "evidence_url": "https://deepgram.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "LiveKit",
+      "provider": "ashby",
+      "board_token": "livekit",
+      "feed_url": "https://api.ashbyhq.com/posting-api/job-board/livekit?includeCompensation=true",
+      "careers_url": "https://livekit.com/careers",
+      "board_url": "https://jobs.ashbyhq.com/livekit",
+      "evidence_url": "https://livekit.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT"
+      ]
+    },
+    {
+      "company": "AssemblyAI",
+      "provider": "greenhouse",
+      "board_token": "assemblyai",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/assemblyai/jobs?content=true",
+      "careers_url": "https://www.assemblyai.com/careers",
+      "board_url": "https://job-boards.greenhouse.io/assemblyai",
+      "evidence_url": "https://www.assemblyai.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT"
+      ]
+    },
+    {
+      "company": "CHAOS Industries",
+      "provider": "greenhouse",
+      "board_token": "chaosindustries",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/chaosindustries/jobs?content=true",
+      "careers_url": "https://www.chaosinc.com/team",
+      "board_url": "https://job-boards.greenhouse.io/chaosindustries",
+      "evidence_url": "https://www.chaosinc.com/team",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    },
+    {
+      "company": "Prismatic",
+      "provider": "greenhouse",
+      "board_token": "prismatic",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/prismatic/jobs?content=true",
+      "careers_url": "https://prismatic.io/careers/",
+      "board_url": "https://job-boards.greenhouse.io/prismatic",
+      "evidence_url": "https://prismatic.io/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT"
+      ]
+    },
+    {
+      "company": "Aircall",
+      "provider": "greenhouse",
+      "board_token": "aircallioinc",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/aircallioinc/jobs?content=true",
+      "careers_url": "https://aircall.io/careers/",
+      "board_url": "https://job-boards.greenhouse.io/aircallioinc",
+      "evidence_url": "https://aircall.io/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Recidiviz",
+      "provider": "greenhouse",
+      "board_token": "recidiviz",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/recidiviz/jobs?content=true",
+      "careers_url": "https://www.recidiviz.org/careers",
+      "board_url": "https://job-boards.greenhouse.io/recidiviz",
+      "evidence_url": "https://www.recidiviz.org/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT"
+      ]
+    },
+    {
+      "company": "Front",
+      "provider": "ashby",
+      "board_token": "frontcareers",
+      "feed_url": "https://api.ashbyhq.com/posting-api/job-board/frontcareers?includeCompensation=true",
+      "careers_url": "https://front.com/careers",
+      "board_url": "https://jobs.ashbyhq.com/frontcareers",
+      "evidence_url": "https://front.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Notion",
+      "provider": "ashby",
+      "board_token": "notion",
+      "feed_url": "https://api.ashbyhq.com/posting-api/job-board/notion?includeCompensation=true",
+      "careers_url": "https://www.notion.com/careers",
+      "board_url": "https://jobs.ashbyhq.com/notion",
+      "evidence_url": "https://www.notion.com/careers",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "Hybrid",
+        "IT",
+        "Marketing"
+      ]
+    },
+    {
+      "company": "Natera",
+      "provider": "greenhouse",
+      "board_token": "natera",
+      "feed_url": "https://boards-api.greenhouse.io/v1/boards/natera/jobs?content=true",
+      "careers_url": "https://www.natera.com/company/careers/",
+      "board_url": "https://job-boards.greenhouse.io/natera",
+      "evidence_url": "https://www.natera.com/company/careers/",
+      "enabled": true,
+      "verification": "Official employer careers content links or embeds this exact ATS board. Public feed postings are checked again during each daily run.",
+      "lanes": [
+        "IT",
+        "Hybrid"
+      ]
+    }
+  ],
+  "excluded_sources": [
+    {
+      "name": "SmartRecruiters",
+      "reason": "Public API robots policy disallows automated crawling; no bypass."
+    },
+    {
+      "name": "Entrata",
+      "reason": "Reviewed remote hiring-state list excludes California."
+    },
+    {
+      "name": "LinkedIn / Indeed / ZipRecruiter",
+      "reason": "Not used as unattended scrape targets; no login, cookie reuse or anti-bot bypass."
+    }
+  ]
+}

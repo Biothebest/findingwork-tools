@@ -1,0 +1,44 @@
+# Default-deny: only maintained tooling and sanitized examples belong in Git.
+# Never force-add personal inputs, applications, captures, logs, or daily state.
+/*
+!/.gitignore
+!/.gitattributes
+!/Makefile
+!/job-scraper-sources.json
+
+!/.agents/
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/scrape-jobs/
+!/.agents/skills/secure-job-finder/
+
+!/.omp/
+/.omp/*
+!/.omp/commands/
+/.omp/commands/*
+!/.omp/commands/scrape-jobs.md
+
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/checks.yml
+
+!/examples/
+/examples/*
+!/examples/job-search-config.example.json
+!/examples/profile.example.json
+!/examples/job-scraper-evidence.example.json
+
+# Editor/runtime artifacts remain private even within allowed source trees.
+**/__pycache__/
+**/*.py[cod]
+**/.DS_Store
+**/.env
+**/.env.*
+**/*.log
+**/*.sqlite*
+**/*.db
+**/*.pem
+**/*.key

@@ -1,0 +1,19 @@
+{
+  "algorithm": "sha256",
+  "version": 3,
+  "reviewed_at": "2026-09-11",
+  "secure_vet_sha256": "886702e2b41545fe3b5736fa930532e6d69efdf8ddf8188e14a07064d93f719c",
+  "files": {
+    "SKILL.md": "790919f1b1fdd2373282b0e6800b7b13ddc9b80fd4fb87f6c53db5d11657e56e",
+    "references/research.md": "6017c179c3beafa22cf1060cfc1e1aff6a9e9e788b144f259f5d4dee4d24f709",
+    "scripts/matching.py": "f8ea6767af8514b133245aeed51b536b1404d3ad6f40e916a58fe151fe95bdad",
+    "scripts/run.py": "3e6d5cdf5255e359c401c9f4798cf7a7cc63403203f95b859cb335dda259d289",
+    "scripts/schedule.py": "8067ba62df8e305fa2c9c14bb7c371edc94a4e58b42ab6237db518d32fa2e150",
+    "scripts/sources.py": "219f085a577765f82e9b611fda043419a929db59dd48bf61adc37bc31e011a17",
+    "scripts/storage.py": "c9607f2872bf1e8769f9d176f9e3b7e108faa45472b478cbe1c969ed653395fe",
+    "tests/test_contracts.py": "df0b94c89ca4a6347a9571cb16972936b97074d98f650992f51c4e7d4f03ad3a",
+    "tests/test_matching.py": "62327fbe119e1ae79810a6eb2858bc47a82e4f48136b9bf69d12e9eb930a05d8",
+    "tests/test_run.py": "de30f07f01e36d093b9eb51df9081e6216e57b7c2dc46928d149fb1628380b6c",
+    "tests/test_sources.py": "09918d6c478a4eec4a511ab1adb3817161006a55962c3d4fe304ad0c7d1a09e6"
+  }
+}

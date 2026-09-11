@@ -1,0 +1,45 @@
+{
+  "example_only": true,
+  "setup_note": "Review these settings before saving a new local job-search-config.json. Restore existing inputs and complete daily history for an existing search; never overwrite them with examples.",
+  "browser_preferences": {
+    "browser": "Safari",
+    "window_policy": "Create one brand-new dedicated Safari window per batch of job-search websites; never reuse an existing window.",
+    "tab_policy": "Open each distinct job/application website in its own new tab within that dedicated window.",
+    "preserve_existing_windows_and_tabs": true,
+    "never_use_chrome": true,
+    "scope": "User-facing job-search browsing only; unattended collection remains headless."
+  },
+  "daily_scraper": {
+    "schedule": "07:00",
+    "timezone": "Mac system local time",
+    "track_targets": {"Marketing": 35, "IT": 35, "Hybrid": 30},
+    "max_required_years": 5,
+    "max_run_seconds": 600,
+    "local_cities": [],
+    "remote_region_terms": ["United States", "USA", "U.S.", "US", "California"],
+    "evidence_snapshot": "job-scraper-evidence.json",
+    "source_registry": "job-scraper-sources.json",
+    "output_directory": "job-search-daily",
+    "once_per_day": "One collection attempt per local calendar date, shared by manual and scheduled runs; failed or interrupted attempts are not repeated that day",
+    "marketing_is_primary": true
+  },
+  "ranking_profile": "profile-next50.json",
+  "minimum_hourly": 0,
+  "minimum_annual": 0,
+  "preferred_annual_minimum": 60000,
+  "preferred_annual_maximum": 150000,
+  "resume_by_track": {
+    "IT": "Matthew_Benitez_IT_Support_Resume.pdf",
+    "Marketing": "Matthew_Benitez_Resume.pdf",
+    "Hybrid": "Matthew_Benitez_Resume.pdf"
+  },
+  "verification": {
+    "require_active_page": true,
+    "require_apply_signal": true,
+    "reject_expired_language": true,
+    "max_age_hours": 72,
+    "never_bypass_captcha": true,
+    "allowed_hosts": ["wellfound.com", "ycombinator.com", "builtin.com", "welcometothejungle.com"],
+    "never_submit_application": true
+  }
+}

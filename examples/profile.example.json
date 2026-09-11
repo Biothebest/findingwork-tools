@@ -1,0 +1,21 @@
+{
+  "example_only": true,
+  "reviewed_at": null,
+  "evidence_snapshot": "job-scraper-evidence.json",
+  "attribution": "Schema example only; contains no candidate qualifications. Replace with reviewed local facts before use.",
+  "experience_note": "Zero years and no skills/degree are conservative example values, not a statement about the candidate. Never replace an existing profile with this example.",
+  "skills": [],
+  "certifications": [],
+  "experience_years": {"Marketing": 0, "IT": 0, "Hybrid": 0},
+  "degree_level": "none",
+  "minimum_hourly": 0,
+  "minimum_annual": 0,
+  "preferred_annual_minimum": 60000,
+  "preferred_annual_maximum": 150000,
+  "max_commute_minutes": 60,
+  "target_title_terms": {
+    "Marketing": ["marketing", "content", "seo", "campaign", "crm", "email"],
+    "IT": ["support", "help desk", "service desk", "desktop", "network", "voip"],
+    "Hybrid": ["implementation", "integration", "software", "python", "voice", "qa"]
+  }
+}
